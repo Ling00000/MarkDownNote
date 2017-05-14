@@ -277,4 +277,4 @@ README.md
 error: src refspec master does not match any.
 error: failed to push some refs to 'https://github.com/Ling00000/MarkDownNote.git'
 
-就是不对的
+就是因为第一次推送的时候，没有先 `commit` ，所以 git 找不到任何可以推送的东西。 
